@@ -14,11 +14,16 @@ To install and run String Calculator locally, follow these steps:
 1. **Clone the repositiory:**
 
 ```sh
-git clone URL
+git clone https://github.com/ay704214011/StringCalculator.git
 cd StringCalculator
+```
 
-2. ** Install dependencies **
+2. **Install dependencies**
+   ```sh
    npm install
+   ```
 
-3. ** Run test cases **
+3. **Run test cases**
+   ```sh
     npm run test
+    ```
