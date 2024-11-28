@@ -38,4 +38,12 @@ describe("String Calculator TDD", () => {
             add("1, -3, -2")
         }).toThrow("negative numbers not allowed: -3, -2");
     });
+
+    test("should ignore numbers if they are greater than 1000", () => {
+        expect(add("1, 1001")).toBe(1);
+    });
+
+    test("should work with delimeter of any length", () => {
+        expect(add("//[***]\n1***2***3")).toBe(6);
+    });
 });
